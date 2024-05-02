@@ -63,7 +63,7 @@ namespace StudentRecordSystem.Controllers
                 DateOfBirth = student.DateOfBirth,
                 Email = student.Email,
                 Phone = student.Phone
-            };
+            }; 
 
             if (ModelState.IsValid)
             {
